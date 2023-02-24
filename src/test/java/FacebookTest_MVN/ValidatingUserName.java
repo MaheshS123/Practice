@@ -62,6 +62,7 @@ public class ValidatingUserName extends LounchingFacebookApp
 //		HP.LogOut(driver);
 		Thread.sleep(2000);
 		driver.close();
+		System.out.println("B1");
 	}
 	
 	@DataProvider(name = "FB_Data")
